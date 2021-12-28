@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar {
+    background-image: url(./IMAGE/WP3);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.menu-bar-item {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.menu-bar-item .logo {
+    padding-left: 2rem;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+.logo img {
+    height: 60px;
+    width: 70px;
+    border-radius: 30px;
+}
+.menu-bar-item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    list-style: none;
+    padding-right: 1.5rem;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: 500;
+    transition: 1s;
+}
+ul,li a:hover{
+    color: rgb(62, 110, 184);
+    font-weight: 600;
+}
+
+/*-------------------Main Content---------------------------*/
+
+.main-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;  
+}
+.main-content h2 {
+    margin-top: 10rem;
+    color: #fff;
+    font-size: 3rem;
+}
+.main-content p {
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.main-content .but-fly {
+    padding: 0.8rem;
+    margin-top: 20rem;
+    background: rgb(56, 56, 231);
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    position: absolute;
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;  
+}
+.main-content .but-fly:hover{
+    font-size: 1rem;
+    color: rgb(187, 177, 177);
+    background: rgb(12, 12, 221);
+}
+
+/*-------------------Page Container---------------------------*/
+.features-container {
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    flex-basis: 85%;
+    padding: 10px;
+}
+.feature-col{
+    padding: 15px;
+}
+.feature-col img {
+    height: 60%;
+    width: 100%;
+    border-radius: 3px;
+}
